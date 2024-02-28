@@ -1,4 +1,4 @@
-#include "lexer/tokinization/generated_file/language_token.h"
+#include "frontend/lexer/generated_file/language_token.h"
 
 int main(int argc, char* argv[])
 {

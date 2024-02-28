@@ -1,6 +1,6 @@
-#line 2 "lexer/tokinization/generated_file/language_token.c"
+#line 2 "frontend/lexer/generated_file/language_token.c"
 
-#line 4 "lexer/tokinization/generated_file/language_token.c"
+#line 4 "frontend/lexer/generated_file/language_token.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -531,11 +531,11 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexer/tokinization/language_token.l"
+#line 1 "frontend/lexer/language_token.l"
 
-#line 6 "lexer/tokinization/language_token.l"
+#line 6 "frontend/lexer/language_token.l"
     #include <stdio.h>
-#line 539 "lexer/tokinization/generated_file/language_token.c"
+#line 539 "frontend/lexer/generated_file/language_token.c"
 
 #define INITIAL 0
 #define COMMENT 1
@@ -718,10 +718,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 23 "lexer/tokinization/language_token.l"
+#line 23 "frontend/lexer/language_token.l"
 
 
-#line 725 "lexer/tokinization/generated_file/language_token.c"
+#line 725 "frontend/lexer/generated_file/language_token.c"
 
 	if ( !(yy_init) )
 		{
@@ -807,142 +807,142 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 25 "lexer/tokinization/language_token.l"
+#line 25 "frontend/lexer/language_token.l"
 {}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 27 "lexer/tokinization/language_token.l"
+#line 27 "frontend/lexer/language_token.l"
 {printf("Token class: NUMBER,    Token value: %s\n", yytext);}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 29 "lexer/tokinization/language_token.l"
+#line 29 "frontend/lexer/language_token.l"
 {printf("Token class: SEPARATOR, Token value: %s\n", yytext);}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 30 "lexer/tokinization/language_token.l"
+#line 30 "frontend/lexer/language_token.l"
 {printf("Token class: SEPARATOR, Token value: %s\n", yytext);}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 31 "lexer/tokinization/language_token.l"
+#line 31 "frontend/lexer/language_token.l"
 {printf("Token class: SEPARATOR, Token value: %s\n", yytext);}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 33 "lexer/tokinization/language_token.l"
+#line 33 "frontend/lexer/language_token.l"
 {printf("Token class: OP,        Token value: ASSIGN\n");}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 34 "lexer/tokinization/language_token.l"
+#line 34 "frontend/lexer/language_token.l"
 {printf("Token class: OP,        Token value: ADD\n");}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 35 "lexer/tokinization/language_token.l"
+#line 35 "frontend/lexer/language_token.l"
 {printf("Token class: OP,        Token value: SUB\n");}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 36 "lexer/tokinization/language_token.l"
+#line 36 "frontend/lexer/language_token.l"
 {printf("Token class: OP,        Token value: MUL\n");}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 37 "lexer/tokinization/language_token.l"
+#line 37 "frontend/lexer/language_token.l"
 {printf("Token class: OP,        Token value: DIV\n");}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 39 "lexer/tokinization/language_token.l"
+#line 39 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: IF\n");}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 40 "lexer/tokinization/language_token.l"
+#line 40 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: ELSE\n");}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 41 "lexer/tokinization/language_token.l"
+#line 41 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: THEN\n");}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 42 "lexer/tokinization/language_token.l"
+#line 42 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: LOOP\n");}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 43 "lexer/tokinization/language_token.l"
+#line 43 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: WHILE\n");}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 44 "lexer/tokinization/language_token.l"
+#line 44 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: PRINT\n");}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 45 "lexer/tokinization/language_token.l"
+#line 45 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: PRINTLN\n");}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 46 "lexer/tokinization/language_token.l"
+#line 46 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: TRUE\n");}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 47 "lexer/tokinization/language_token.l"
+#line 47 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: FALSE\n");}
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 48 "lexer/tokinization/language_token.l"
+#line 48 "frontend/lexer/language_token.l"
 {printf("Token class: KEY WORD,  Token value: NOT\n");}
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 50 "lexer/tokinization/language_token.l"
+#line 50 "frontend/lexer/language_token.l"
 {printf("Token class: TYPE_ID,   Token value: %s\n", yytext);}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 51 "lexer/tokinization/language_token.l"
+#line 51 "frontend/lexer/language_token.l"
 {printf("Token class: VARIABLE,  Token value: %s\n", yytext);}
 	YY_BREAK
 case 23:
 /* rule 23 can match eol */
 YY_RULE_SETUP
-#line 53 "lexer/tokinization/language_token.l"
+#line 53 "frontend/lexer/language_token.l"
 {printf("Token class: STRING,    Token value: %s\n", yytext);}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 55 "lexer/tokinization/language_token.l"
+#line 55 "frontend/lexer/language_token.l"
 {BEGIN(COMMENT);}
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 56 "lexer/tokinization/language_token.l"
+#line 56 "frontend/lexer/language_token.l"
 {}
 	YY_BREAK
 case 26:
 /* rule 26 can match eol */
 YY_RULE_SETUP
-#line 57 "lexer/tokinization/language_token.l"
+#line 57 "frontend/lexer/language_token.l"
 {BEGIN(INITIAL);}
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 59 "lexer/tokinization/language_token.l"
+#line 59 "frontend/lexer/language_token.l"
 ECHO;
 	YY_BREAK
-#line 946 "lexer/tokinization/generated_file/language_token.c"
+#line 946 "frontend/lexer/generated_file/language_token.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(COMMENT):
 	yyterminate();
@@ -1940,6 +1940,6 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 59 "lexer/tokinization/language_token.l"
+#line 59 "frontend/lexer/language_token.l"
 
 

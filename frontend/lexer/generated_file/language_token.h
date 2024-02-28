@@ -2,9 +2,9 @@
 #define yyHEADER_H 1
 #define yyIN_HEADER 1
 
-#line 6 "lexer/tokinization/generated_file/language_token.h"
+#line 6 "frontend/lexer/generated_file/language_token.h"
 
-#line 8 "lexer/tokinization/generated_file/language_token.h"
+#line 8 "frontend/lexer/generated_file/language_token.h"
 
 #define  YY_INT_ALIGNED short int
 
@@ -315,9 +315,9 @@ extern int yylex (void);
 #undef YY_DECL
 #endif
 
-#line 59 "lexer/tokinization/language_token.l"
+#line 59 "frontend/lexer/language_token.l"
 
 
-#line 322 "lexer/tokinization/generated_file/language_token.h"
+#line 322 "frontend/lexer/generated_file/language_token.h"
 #undef yyIN_HEADER
 #endif /* yyHEADER_H */
